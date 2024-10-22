@@ -206,7 +206,8 @@ console.log(blockScopedVar);
 // moving outward to the parent scopes, up to the global scope.
 
 // The scope chain refers to the mechanism by which JavaScript resolves variable access. When a variable is used, JavaScript first looks
-//  at the current scope to find the variable. If it is not found, it looks at the outer scope, continuing until it reaches the global scope. This chain of scopes is known as the scope chain.
+//  at the current scope to find the variable. If it is not found, it looks at the outer scope, continuing until it reaches the global scope.
+// This chain of scopes is known as the scope chain.
 // Each function creates a new scope, and each scope has access to its own variables as well as variables in its outer (parent) scope.
 // The scope chain is used to resolve variable references, starting from the innermost scope and moving outward.
 
