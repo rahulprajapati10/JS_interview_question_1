@@ -78,7 +78,9 @@ console.log(num4 === num5);
 // Q5. Diffrence between the undefined , not defined and NaN ?
 
 // undefined means the variable is declared but value is not assigned to that variable so in this case we get the undefined
+
 // not defined means if the variable is not declared then it will throw the error not defined.
+
 // NaN This represents a value that is not a valid number. It is a special value used to denote that 
 // an arithmetic operation resulted in something that cannot be represented as a number.
 
@@ -161,6 +163,8 @@ console.log(num4 === num5);
 
 // Local Scope: Variables declared within a function and only accessible within that function.
 
+//                                              OR
+
 // Local scope refers to variables that are defined within a function. Variables in the local scope can only be 
 // accessed within the function in which they are declared.
 // Variables declared with var, let, or const inside a function are in the local scope.
@@ -171,18 +175,12 @@ console.log(num4 === num5);
 
 // Block Scope: Variables declared within a block ({}) and only accessible inside the block (let, const).
 
+//                                              OR
+
 // Block scope refers to variables declared inside a block, such as inside {}. In JavaScript, only variables declared 
 // with let and const are block-scoped. This means these variables are only available within the block where they are defined.
 // Variables declared with let and const inside a block are block-scoped.
 // Variables declared with var are not block-scoped but are function-scoped.
-
-if (true) {
-    let blockScopedVar = 'I am block-scoped';
-    console.log(blockScopedVar);
-}
-console.log(blockScopedVar);
-
-
 
 
 
@@ -191,6 +189,7 @@ console.log(blockScopedVar);
 // Function Scope: Variables declared with var are function-scoped, meaning they are accessible anywhere in the function,
 // regardless of block boundaries.
 
+//                                              OR
 
 // Function scope refers to variables declared inside a function. Variables declared with var (as opposed to let or const)
 //  are function-scoped, meaning they are accessible throughout the entire function, regardless of where they are declared within the function.
@@ -204,6 +203,8 @@ console.log(blockScopedVar);
 
 // Scope Chain: The mechanism JavaScript uses to resolve variable references, starting from the current scope and
 // moving outward to the parent scopes, up to the global scope.
+
+//                                               OR
 
 // The scope chain refers to the mechanism by which JavaScript resolves variable access. When a variable is used, JavaScript first looks
 //  at the current scope to find the variable. If it is not found, it looks at the outer scope, continuing until it reaches the global scope.
