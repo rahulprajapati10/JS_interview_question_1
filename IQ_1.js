@@ -90,7 +90,7 @@ console.log(num4 === num5);
 
 
 
-// Q6. how many operators do we have in javascript ?
+// Q6. how many operators do we have in javaScript ?
 
 // 1. Arithmetic Operators
 
