@@ -6,8 +6,8 @@
 // use of "=="
 
 
-let c = 5;
-let d = 5;
+let c = 8;
+let d = 8;
 
 console.log(c == d);   // true
 
