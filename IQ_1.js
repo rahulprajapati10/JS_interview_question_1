@@ -42,7 +42,7 @@ console.log(num4 === num5);
 // Q2 . What is the diffrence between the var, let , and const?
 
 // var , let and const all these are used to create the variable but  var is a global scope and let and const are the block scope .
-// variable created with var can be reassigned the value and can be redeclared .
+// variable created with var can be reassigned the value and  be can redeclared .
 // variable created with let can be reassign the value but can not be redeclared.
 // variable created with const can not be reassign the value not redeclared.  const is a constant value that can not be changed. 
 
