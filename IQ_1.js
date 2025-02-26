@@ -12,6 +12,7 @@ let d = 8;
 console.log(c == d);   // true
 
 
+
 let e = 7;
 let f = "7"
 
