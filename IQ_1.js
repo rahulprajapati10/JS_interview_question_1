@@ -16,7 +16,8 @@ console.log(c == d);   // true
 let e = 7;
 let f = "7"
 
-console.log(e == f);  // true    // "==" only checks the value of the variable  it does not checks the data types
+console.log(e == f);  // true    // "==" only checks the value of the variable  it does not checks the datatype
+
 
 
 
