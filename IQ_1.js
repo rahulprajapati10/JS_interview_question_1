@@ -46,7 +46,7 @@ console.log(num4 === num5);
 // var , let and const all these are used to create the variable but  var is a global scope and let and const are the block scope .
 // variable created with var can be reassigned the value and  be can redeclared .
 // variable created with let can be reassign the value but can not be redeclared.
-// variable created with const can not be reassign the value not redeclared.  const is a constant value that can not be changed. 
+// variable created with const can not be reassign the value not redeclared.  const is a constant value that cannot be changed. 
 
 
 
